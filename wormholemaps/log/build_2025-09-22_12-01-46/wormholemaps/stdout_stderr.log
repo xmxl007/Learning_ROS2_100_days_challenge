@@ -1,0 +1,53 @@
+running egg_info
+creating build/wormholemaps/wormholemaps.egg-info
+writing build/wormholemaps/wormholemaps.egg-info/PKG-INFO
+writing dependency_links to build/wormholemaps/wormholemaps.egg-info/dependency_links.txt
+writing entry points to build/wormholemaps/wormholemaps.egg-info/entry_points.txt
+writing requirements to build/wormholemaps/wormholemaps.egg-info/requires.txt
+writing top-level names to build/wormholemaps/wormholemaps.egg-info/top_level.txt
+writing manifest file 'build/wormholemaps/wormholemaps.egg-info/SOURCES.txt'
+reading manifest file 'build/wormholemaps/wormholemaps.egg-info/SOURCES.txt'
+writing manifest file 'build/wormholemaps/wormholemaps.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build
+creating /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib
+creating /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps
+copying wormholemaps/computepose.py -> /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps
+copying wormholemaps/__init__.py -> /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps
+running install
+running install_lib
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps
+copying /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps/computepose.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps
+copying /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps/__init__.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps
+byte-compiling /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps/computepose.py to computepose.cpython-310.pyc
+byte-compiling /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/ament_index
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/ament_index/resource_index
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/ament_index/resource_index/packages
+copying resource/wormholemaps -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/ament_index/resource_index/packages
+copying package.xml -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/config
+copying config/localisation.yaml -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/config
+copying config/slam_toolbox.yaml -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/config
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+copying launch/gazeborobot.launch.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+copying launch/wormholemaphandler.launch.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+copying launch/computepose.launch.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+copying launch/nav2localisation.launch.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/map
+copying map/junimap.pgm -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/map
+copying map/junimap.yaml -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/map
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/rviz
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/urdf
+copying urdf/finalrobo.urdf -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/urdf
+copying urdf/caster_wheel.urdf.xacro -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/urdf
+copying urdf/derren.urdf.xacro -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/urdf
+creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/worlds
+copying worlds/myhouse.world -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/worlds
+running install_egg_info
+Copying build/wormholemaps/wormholemaps.egg-info to /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps-0.0.0-py3.10.egg-info
+running install_scripts
+Installing compute_pose script to /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/wormholemaps
+writing list of installed files to '/home/amal/my_ws/src/wormholemaps/build/wormholemaps/install.log'

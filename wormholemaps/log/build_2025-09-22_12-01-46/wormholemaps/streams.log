@@ -1,0 +1,55 @@
+[0.590s] Invoking command in '/home/amal/my_ws/src/wormholemaps': PYTHONPATH=/home/amal/my_ws/src/wormholemaps/build/wormholemaps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/wormholemaps build --build-base /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build install --record /home/amal/my_ws/src/wormholemaps/build/wormholemaps/install.log --single-version-externally-managed install_data
+[0.809s] running egg_info
+[0.810s] creating build/wormholemaps/wormholemaps.egg-info
+[0.810s] writing build/wormholemaps/wormholemaps.egg-info/PKG-INFO
+[0.810s] writing dependency_links to build/wormholemaps/wormholemaps.egg-info/dependency_links.txt
+[0.810s] writing entry points to build/wormholemaps/wormholemaps.egg-info/entry_points.txt
+[0.810s] writing requirements to build/wormholemaps/wormholemaps.egg-info/requires.txt
+[0.811s] writing top-level names to build/wormholemaps/wormholemaps.egg-info/top_level.txt
+[0.811s] writing manifest file 'build/wormholemaps/wormholemaps.egg-info/SOURCES.txt'
+[0.812s] reading manifest file 'build/wormholemaps/wormholemaps.egg-info/SOURCES.txt'
+[0.813s] writing manifest file 'build/wormholemaps/wormholemaps.egg-info/SOURCES.txt'
+[0.813s] running build
+[0.813s] running build_py
+[0.813s] creating /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build
+[0.813s] creating /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib
+[0.814s] creating /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps
+[0.814s] copying wormholemaps/computepose.py -> /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps
+[0.814s] copying wormholemaps/__init__.py -> /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps
+[0.814s] running install
+[0.814s] running install_lib
+[0.815s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps
+[0.815s] copying /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps/computepose.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps
+[0.815s] copying /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build/lib/wormholemaps/__init__.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps
+[0.815s] byte-compiling /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps/computepose.py to computepose.cpython-310.pyc
+[0.815s] byte-compiling /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps/__init__.py to __init__.cpython-310.pyc
+[0.816s] running install_data
+[0.816s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/ament_index
+[0.816s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/ament_index/resource_index
+[0.816s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/ament_index/resource_index/packages
+[0.816s] copying resource/wormholemaps -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/ament_index/resource_index/packages
+[0.816s] copying package.xml -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps
+[0.817s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/config
+[0.817s] copying config/localisation.yaml -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/config
+[0.817s] copying config/slam_toolbox.yaml -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/config
+[0.817s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+[0.817s] copying launch/gazeborobot.launch.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+[0.818s] copying launch/wormholemaphandler.launch.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+[0.818s] copying launch/computepose.launch.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+[0.818s] copying launch/nav2localisation.launch.py -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/launch
+[0.818s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/map
+[0.818s] copying map/junimap.pgm -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/map
+[0.818s] copying map/junimap.yaml -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/map
+[0.819s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/rviz
+[0.819s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/urdf
+[0.819s] copying urdf/finalrobo.urdf -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/urdf
+[0.819s] copying urdf/caster_wheel.urdf.xacro -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/urdf
+[0.819s] copying urdf/derren.urdf.xacro -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/urdf
+[0.819s] creating /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/worlds
+[0.820s] copying worlds/myhouse.world -> /home/amal/my_ws/src/wormholemaps/install/wormholemaps/share/wormholemaps/worlds
+[0.820s] running install_egg_info
+[0.820s] Copying build/wormholemaps/wormholemaps.egg-info to /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages/wormholemaps-0.0.0-py3.10.egg-info
+[0.820s] running install_scripts
+[0.837s] Installing compute_pose script to /home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/wormholemaps
+[0.838s] writing list of installed files to '/home/amal/my_ws/src/wormholemaps/build/wormholemaps/install.log'
+[0.866s] Invoked command in '/home/amal/my_ws/src/wormholemaps' returned '0': PYTHONPATH=/home/amal/my_ws/src/wormholemaps/build/wormholemaps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amal/my_ws/src/wormholemaps/install/wormholemaps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/wormholemaps build --build-base /home/amal/my_ws/src/wormholemaps/build/wormholemaps/build install --record /home/amal/my_ws/src/wormholemaps/build/wormholemaps/install.log --single-version-externally-managed install_data

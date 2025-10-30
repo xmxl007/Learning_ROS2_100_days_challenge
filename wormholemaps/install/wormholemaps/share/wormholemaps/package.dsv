@@ -1,0 +1,6 @@
+source;share/wormholemaps/hook/pythonpath.ps1
+source;share/wormholemaps/hook/pythonpath.dsv
+source;share/wormholemaps/hook/pythonpath.sh
+source;share/wormholemaps/hook/ament_prefix_path.ps1
+source;share/wormholemaps/hook/ament_prefix_path.dsv
+source;share/wormholemaps/hook/ament_prefix_path.sh
